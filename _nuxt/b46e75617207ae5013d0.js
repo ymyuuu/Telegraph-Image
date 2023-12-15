@@ -273,7 +273,8 @@
 						},
 						dataURLtoFile: function(t) {
 							for (var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[
-									1] : "tmp.png", o = t.split(","), n = o[0].match(/:(.*?);/)[1], r =
+										1] : "tmp.png", o = t.split(","), n = o[0].match(/:(.*?);/)[1],
+									r =
 									atob(o[1]), c = r.length, l = new Uint8Array(c); c--;) l[c] = r
 								.charCodeAt(c);
 							return new File([l], e, {
@@ -315,7 +316,7 @@
 				},
 				w = (o(332), {
 					head: {
-						title: "Telegraph-Image|免费图床"
+						title: "For Mingyu Image|免费图床"
 					},
 					components: {
 						Background: d,
@@ -440,7 +441,7 @@
 									}, [t._v("已成功复制图片地址!")]) :
 									o("span", [t._v(
 										"复制下面的图片地址 或者 取消重新上传"
-										)])
+									)])
 								]), t._v(" "), o("div", {
 									staticClass: "url-box"
 								}, [o("div", {
@@ -478,14 +479,14 @@
 											.focus,
 										input: function(
 											e
-											) {
+										) {
 											e.target
 												.composing ||
 												(t.showText =
 													e
 													.target
 													.value
-													)
+												)
 										}
 									}
 								}), t._v(
@@ -512,7 +513,7 @@
 												"fill-rule": "evenodd"
 											}
 										})]
-										)])]), t._v(
+									)])]), t._v(
 									" "), o("div", {
 									staticClass: "re-upload",
 									on: {
@@ -589,7 +590,7 @@
 							staticClass: "main"
 						}, [e("div", {
 							staticClass: "title"
-						}, [this._v("Telegraph-Image")]), this._v(" "), e(
+						}, [this._v("For Mingyu Image")]), this._v(" "), e(
 							"Upload")], 1), this._v(" "), e("Footer")], 1)
 				}), [], !1, null, "5e6831cc", null));
 			e.default = x.exports

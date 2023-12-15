@@ -564,19 +564,21 @@
 								e = this._self._c || t;
 							return e("div", {
 								staticClass: "text-area"
-							}, [e("span", [this._v("也可直接截图并粘贴到这里")])])
+							}, [e("span", [this._v(
+								"Just take a screenshot and paste it here"
+							)])])
 						}, function() {
 							var t = this.$createElement,
 								e = this._self._c || t;
 							return e("div", {
 								staticClass: "text-area"
-							}, [e("span", [this._v("正在上传，请稍等…")])])
+							}, [e("span", [this._v("Uploading...")])])
 						}, function() {
 							var t = this.$createElement,
 								e = this._self._c || t;
 							return e("div", {
 								staticClass: "text-area"
-							}, [e("span", [this._v("出错啦，请重新上传")])])
+							}, [e("span", [this._v("Error Occurred")])])
 						}], !1, null, "793b8fc8", null).exports
 					}
 				}),

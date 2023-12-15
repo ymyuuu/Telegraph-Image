@@ -211,12 +211,12 @@
 						e = this._self._c || t;
 					return e("div", {
 						staticClass: "footer"
-					}, [this._v("\n  基于 "), e("a", {
+					}, [this._v("\n  For "), e("a", {
 						attrs: {
-							href: "https://telegra.ph",
+							href: "https://github.com/ymyuuu",
 							target: "_blank"
 						}
-					}, [this._v("Mingyu")]), this._v(" 的图片上传工具\n")])
+					}, [this._v("Mingyu")]), this._v(" Image\n")])
 				}], !1, null, "5d5649c4", null).exports),
 				h = (o(325), o(183), o(187), o(78)),
 				m = {

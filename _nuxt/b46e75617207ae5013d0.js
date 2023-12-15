@@ -438,9 +438,11 @@
 									staticClass: "text-area"
 								}, [t.isCopy ? o("span", {
 										staticClass: "alert-text"
-									}, [t._v("已成功复制图片地址!")]) :
+									}, [t._v(
+										"Image address successfully copied!"
+									)]) :
 									o("span", [t._v(
-										"复制下面的图片地址 或者 取消重新上传"
+										"Copy the image address below or cancel"
 									)])
 								]), t._v(" "), o("div", {
 									staticClass: "url-box"

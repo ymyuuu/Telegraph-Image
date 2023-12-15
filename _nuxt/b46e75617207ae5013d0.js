@@ -211,13 +211,12 @@
 						e = this._self._c || t;
 					return e("div", {
 						staticClass: "footer"
-					}, [this._v("\n  Image  for  "), e("a", {
+					}, [this._v("\n  基于 "), e("a", {
 						attrs: {
-							href: "https://github.com/ymyuuu",
+							href: "https://telegra.ph",
 							target: "_blank"
 						}
-					}, [this._v("Mingyu")]), this._v(
-						" 奈何才情匮乏，字里行间尽显平淡，似泉源干涸，难以绽放文辉\n")])
+					}, [this._v("Mingyu")]), this._v(" 的图片上传工具\n")])
 				}], !1, null, "5d5649c4", null).exports),
 				h = (o(325), o(183), o(187), o(78)),
 				m = {
@@ -274,8 +273,7 @@
 						},
 						dataURLtoFile: function(t) {
 							for (var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[
-										1] : "tmp.png", o = t.split(","), n = o[0].match(/:(.*?);/)[1],
-									r =
+									1] : "tmp.png", o = t.split(","), n = o[0].match(/:(.*?);/)[1], r =
 									atob(o[1]), c = r.length, l = new Uint8Array(c); c--;) l[c] = r
 								.charCodeAt(c);
 							return new File([l], e, {
@@ -442,7 +440,7 @@
 									}, [t._v("已成功复制图片地址!")]) :
 									o("span", [t._v(
 										"复制下面的图片地址 或者 取消重新上传"
-									)])
+										)])
 								]), t._v(" "), o("div", {
 									staticClass: "url-box"
 								}, [o("div", {
@@ -480,14 +478,14 @@
 											.focus,
 										input: function(
 											e
-										) {
+											) {
 											e.target
 												.composing ||
 												(t.showText =
 													e
 													.target
 													.value
-												)
+													)
 										}
 									}
 								}), t._v(
@@ -514,7 +512,7 @@
 												"fill-rule": "evenodd"
 											}
 										})]
-									)])]), t._v(
+										)])]), t._v(
 									" "), o("div", {
 									staticClass: "re-upload",
 									on: {

@@ -122,8 +122,7 @@
 							}).then((function(e) {
 								e.data.data.map((function(e, o) {
 									t.bgJson.push({
-										imgUrl: "https://cn.bing.com" +
-											e.url,
+										imgUrl: "https://im.030101.xyz/file/63306427fadaad55fe755.jpg",
 										delay: 6 * o
 									})
 								}))

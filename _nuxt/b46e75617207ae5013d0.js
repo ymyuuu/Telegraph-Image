@@ -124,7 +124,7 @@
 									t.bgJson.push({
 										// imgUrl: "https://cn.bing.com" +
 										// 	e.url,
-										imgUrl: "1.png",
+										imgUrl: "https://im.030101.xyz/file/4ea4bede330a7fbf750f6.jpg",
 										delay: 6 * o
 									})
 								}))

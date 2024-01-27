@@ -124,7 +124,7 @@
 									t.bgJson.push({
 										// imgUrl: "https://cn.bing.com" +
 										// 	e.url,
-										imgUrl: "3.jpg",
+										imgUrl: "3.png",
 										delay: 6 * o
 									})
 								}))
